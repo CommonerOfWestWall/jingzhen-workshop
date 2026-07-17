@@ -32,7 +32,7 @@
 
 ### 普通用户
 
-1. 从 [Releases 页面](https://github.com/CommonerOfWestWall/jingzhen-workshop/releases) 下载最新预览版的 `净帧工坊-免安装版.zip` 和同名 `.sha256` 文件。
+1. 从 [Releases 页面](https://github.com/CommonerOfWestWall/jingzhen-workshop/releases) 下载最新预览版中以 `Jingzhen-Workshop-Windows-Portable-` 开头的 ZIP 和同名 `.sha256` 文件。
 2. **完整解压** ZIP，不要只把 EXE 单独拖出来。
 3. 可选：按发布页说明核对 ZIP 的 SHA-256，确认下载完整。
 4. 双击 `净帧工坊.exe`。无需安装，也不需要管理员权限。
