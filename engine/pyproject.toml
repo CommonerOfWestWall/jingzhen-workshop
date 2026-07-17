@@ -1,0 +1,29 @@
+[project]
+name = "jingzhen-engine"
+version = "0.1.0"
+description = "Offline temporal video repair sidecar for 净帧工坊"
+license = "Apache-2.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "numpy>=2.0,<3",
+  "opencv-python-headless>=4.10,<5",
+  "onnxruntime>=1.20,<2",
+  "pillow>=11,<13",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3,<10",
+  "pyinstaller>=6.11,<7",
+]
+
+[project.scripts]
+jingzhen-engine = "jingzhen_engine.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

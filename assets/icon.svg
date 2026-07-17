@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="净帧工坊图标">
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#24364f"/>
+      <stop offset="1" stop-color="#162337"/>
+    </linearGradient>
+    <linearGradient id="clean" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#52c7c9"/>
+      <stop offset="1" stop-color="#268fa6"/>
+    </linearGradient>
+  </defs>
+  <rect x="54" y="82" width="404" height="348" rx="74" fill="url(#frame)"/>
+  <rect x="91" y="119" width="330" height="274" rx="46" fill="#0f1928" stroke="#71829a" stroke-width="10"/>
+  <path d="M256 124h119c24 0 42 18 42 42v180c0 24-18 42-42 42H204z" fill="url(#clean)"/>
+  <path d="M265 137 211 376" fill="none" stroke="#d9f6f4" stroke-width="12" stroke-linecap="round" opacity=".86"/>
+  <g fill="#7890aa">
+    <rect x="119" y="174" width="42" height="42" rx="8"/>
+    <rect x="174" y="224" width="31" height="31" rx="6"/>
+    <rect x="126" y="285" width="54" height="54" rx="10"/>
+  </g>
+  <path d="M330 175v34m-17-17h34" stroke="#f0ad52" stroke-width="13" stroke-linecap="round"/>
+  <path d="M316 281c19 17 36 20 57 2" fill="none" stroke="#d9f6f4" stroke-width="13" stroke-linecap="round"/>
+  <path d="M106 366c42 25 82 25 117 5" fill="none" stroke="#f0ad52" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 20"/>
+</svg>

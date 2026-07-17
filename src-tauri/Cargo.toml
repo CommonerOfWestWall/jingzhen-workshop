@@ -1,0 +1,29 @@
+[package]
+name = "jingzhen-workshop"
+version = "0.1.0"
+description = "净帧工坊离线视频画面修复工具"
+authors = ["Jingzhen Workshop Contributors"]
+license = "Apache-2.0"
+edition = "2024"
+rust-version = "1.85"
+
+[lib]
+name = "jingzhen_workshop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.6.3", features = [] }
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tauri = { version = "2.11.5", features = ["protocol-asset"] }
+tauri-plugin-dialog = "2.7.1"
+reqwest = { version = "0.13.4", default-features = false, features = ["rustls", "stream", "system-proxy"] }
+futures-util = "0.3"
+fs2 = "0.4.3"
+sha2 = "0.10.9"
+zip = { version = "6.0.0", default-features = false, features = ["deflate-flate2-zlib-rs"] }
+
+[dev-dependencies]
+tempfile = "3"

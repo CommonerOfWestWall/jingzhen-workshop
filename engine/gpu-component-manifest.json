@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "componentVersion": "2026.07-cuda12-ort1.26",
+  "downloadBytes": 2162245136,
+  "requiredFreeBytes": 4800000000,
+  "provider": "CUDAExecutionProvider",
+  "cudaLicenseUrl": "https://docs.nvidia.com/cuda/eula/index.html",
+  "cudnnLicenseUrl": "https://docs.nvidia.com/deeplearning/cudnn/backend/latest/reference/eula.html",
+  "artifacts": [
+    {
+      "name": "ONNX Runtime GPU 1.26.0",
+      "filename": "onnxruntime_gpu-1.26.0-cp312-cp312-win_amd64.whl",
+      "kind": "wheel",
+      "size": 226548963,
+      "sha256": "5f49c44689894650990e4c8a857d2edafc276fbd79bba57ceb224bd18d25d491",
+      "url": "https://files.pythonhosted.org/packages/a4/e4/9b378a5466ea0bed65e5beb8e09254973c580a6522810a38afbcc45e5105/onnxruntime_gpu-1.26.0-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "NVIDIA CUDA NVRTC 12.9.86",
+      "filename": "nvidia_cuda_nvrtc_cu12-12.9.86-py3-none-win_amd64.whl",
+      "kind": "wheel",
+      "size": 76408187,
+      "sha256": "72972ebdcf504d69462d3bcd67e7b81edd25d0fb85a2c46d3ea3517666636349",
+      "url": "https://files.pythonhosted.org/packages/52/de/823919be3b9d0ccbf1f784035423c5f18f4267fb0123558d58b813c6ec86/nvidia_cuda_nvrtc_cu12-12.9.86-py3-none-win_amd64.whl"
+    },
+    {
+      "name": "NVIDIA CUDA Runtime 12.9.79",
+      "filename": "nvidia_cuda_runtime_cu12-12.9.79-py3-none-win_amd64.whl",
+      "kind": "wheel",
+      "size": 3591604,
+      "sha256": "8e018af8fa02363876860388bd10ccb89eb9ab8fb0aa749aaf58430a9f7c4891",
+      "url": "https://files.pythonhosted.org/packages/59/df/e7c3a360be4f7b93cee39271b792669baeb3846c58a4df6dfcf187a7ffab/nvidia_cuda_runtime_cu12-12.9.79-py3-none-win_amd64.whl"
+    },
+    {
+      "name": "NVIDIA cuFFT 11.4.1.4",
+      "filename": "nvidia_cufft_cu12-11.4.1.4-py3-none-win_amd64.whl",
+      "kind": "wheel",
+      "size": 200067309,
+      "sha256": "8e5bfaac795e93f80611f807d42844e8e27e340e0cde270dcb6c65386d795b80",
+      "url": "https://files.pythonhosted.org/packages/20/ee/29955203338515b940bd4f60ffdbc073428f25ef9bfbce44c9a066aedc5c/nvidia_cufft_cu12-11.4.1.4-py3-none-win_amd64.whl"
+    },
+    {
+      "name": "NVIDIA cuRAND 10.3.10.19",
+      "filename": "nvidia_curand_cu12-10.3.10.19-py3-none-win_amd64.whl",
+      "kind": "wheel",
+      "size": 68774847,
+      "sha256": "e8129e6ac40dc123bd948e33d3e11b4aa617d87a583fa2f21b3210e90c743cde",
+      "url": "https://files.pythonhosted.org/packages/e5/98/1bd66fd09cbe1a5920cb36ba87029d511db7cca93979e635fd431ad3b6c0/nvidia_curand_cu12-10.3.10.19-py3-none-win_amd64.whl"
+    },
+    {
+      "name": "NVIDIA cuDNN 9.24.0.43",
+      "filename": "nvidia_cudnn_cu12-9.24.0.43-py3-none-win_amd64.whl",
+      "kind": "wheel",
+      "size": 737103728,
+      "sha256": "cbd41a0ab084422c936dc9fb2fc89be5ea9a85bc421c6f23d0243bdfc945fbef",
+      "url": "https://files.pythonhosted.org/packages/29/28/2c9a2a97a8b3fedcf74a14f38fd5edfae12274380a829fdc6b16ce29be4c/nvidia_cudnn_cu12-9.24.0.43-py3-none-win_amd64.whl"
+    },
+    {
+      "name": "NVIDIA cuBLAS 12.9.2.10",
+      "filename": "nvidia_cublas_cu12-12.9.2.10-py3-none-win_amd64.whl",
+      "kind": "wheel",
+      "size": 553162896,
+      "sha256": "623f43027d40d44ceadf0043f002bd25cf353e8f13ce90b9a87057019f560661",
+      "url": "https://files.pythonhosted.org/packages/20/e2/fc9a0e985249d873150276d5afb02e39a66817fedbf1a385724393e505ed/nvidia_cublas_cu12-12.9.2.10-py3-none-win_amd64.whl"
+    },
+    {
+      "name": "NVIDIA nvJitLink 12.9.86",
+      "filename": "nvidia_nvjitlink_cu12-12.9.86-py3-none-win_amd64.whl",
+      "kind": "wheel",
+      "size": 35584936,
+      "sha256": "cc6fcec260ca843c10e34c936921a1c426b351753587fdd638e8cff7b16bb9db",
+      "url": "https://files.pythonhosted.org/packages/dd/7e/2eecb277d8a98184d881fb98a738363fd4f14577a4d2d7f8264266e82623/nvidia_nvjitlink_cu12-12.9.86-py3-none-win_amd64.whl"
+    },
+    {
+      "name": "NumPy 2.4.4",
+      "filename": "numpy-2.4.4-cp312-cp312-win_amd64.whl",
+      "kind": "wheel",
+      "size": 12320584,
+      "sha256": "b5f0362dc928a6ecd9db58868fca5e48485205e3855957bdedea308f8672ea4a",
+      "url": "https://files.pythonhosted.org/packages/2d/5b/e1deebf88ff431b01b7406ca3583ab2bbb90972bbe1c568732e49c844f7e/numpy-2.4.4-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "name": "OpenCV Python Headless 4.13.0.92",
+      "filename": "opencv_python_headless-4.13.0.92-cp37-abi3-win_amd64.whl",
+      "kind": "wheel",
+      "size": 40070414,
+      "sha256": "77a82fe35ddcec0f62c15f2ba8a12ecc2ed4207c17b0902c7a3151ae29f37fb6",
+      "url": "https://files.pythonhosted.org/packages/4a/90/b338326131ccb2aaa3c2c85d00f41822c0050139a4bfe723cfd95455bd2d/opencv_python_headless-4.13.0.92-cp37-abi3-win_amd64.whl"
+    },
+    {
+      "name": "FlatBuffers 25.12.19",
+      "filename": "flatbuffers-25.12.19-py2.py3-none-any.whl",
+      "kind": "wheel",
+      "size": 26661,
+      "sha256": "7634f50c427838bb021c2d66a3d1168e9d199b0607e6329399f04846d42e20b4",
+      "url": "https://files.pythonhosted.org/packages/e8/2d/d2a548598be01649e2d46231d151a6c56d10b964d94043a335ae56ea2d92/flatbuffers-25.12.19-py2.py3-none-any.whl"
+    },
+    {
+      "name": "Packaging 26.2",
+      "filename": "packaging-26.2-py3-none-any.whl",
+      "kind": "wheel",
+      "size": 100195,
+      "sha256": "5fc45236b9446107ff2415ce77c807cee2862cb6fac22b8a73826d0693b0980e",
+      "url": "https://files.pythonhosted.org/packages/df/b2/87e62e8c3e2f4b32e5fe99e0b86d576da1312593b39f47d8ceef365e95ed/packaging-26.2-py3-none-any.whl"
+    },
+    {
+      "name": "Protobuf 7.35.1",
+      "filename": "protobuf-7.35.1-cp310-abi3-win_amd64.whl",
+      "kind": "wheel",
+      "size": 439996,
+      "sha256": "230a75ddfc2de4806e56696ce9640c1cdfdb6543b7cfce98d42a4c0a0e7bdb87",
+      "url": "https://files.pythonhosted.org/packages/0a/19/8d0cb6f20a1ef7b18f1c8986ad5783f22f84cce39c6ce9a6e645ea55192e/protobuf-7.35.1-cp310-abi3-win_amd64.whl"
+    },
+    {
+      "name": "LaMa FP32 GPU 模型",
+      "filename": "lama_fp32.onnx",
+      "kind": "model",
+      "size": 208044816,
+      "sha256": "1faef5301d78db7dda502fe59966957ec4b79dd64e16f03ed96913c7a4eb68d6",
+      "url": "https://huggingface.co/Carve/LaMa-ONNX/resolve/main/lama_fp32.onnx"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "models": [
+    {
+      "id": "opencv-lama-inpainting-2025jan",
+      "name": "OpenCV LaMa Inpainting",
+      "purpose": "固定区域、移动目标与透明度变化标记的高清修复",
+      "license": "Apache-2.0",
+      "commercialUse": true,
+      "redistributable": true,
+      "delivery": "download-for-portable-build",
+      "filename": "inpainting_lama_2025jan.onnx",
+      "url": "https://huggingface.co/opencv/inpainting_lama/resolve/main/inpainting_lama_2025jan.onnx",
+      "size": 92591623,
+      "sha256": "7df918ac3921d3daf0aae1d219776cf0dc4e4935f035af81841b40adcf74fdf2",
+      "source": "https://huggingface.co/opencv/inpainting_lama",
+      "notice": "模型不提交到源码仓库；构建免安装版前按清单下载并校验，成品包可随附。所有高清推理均在本机离线完成。"
+    },
+    {
+      "id": "carve-lama-fp32-gpu",
+      "name": "LaMa FP32 GPU",
+      "purpose": "NVIDIA CUDA 高清修复",
+      "license": "Apache-2.0",
+      "commercialUse": true,
+      "redistributable": true,
+      "delivery": "optional-first-download",
+      "filename": "lama_fp32.onnx",
+      "url": "https://huggingface.co/Carve/LaMa-ONNX/resolve/main/lama_fp32.onnx",
+      "size": 208044816,
+      "sha256": "1faef5301d78db7dda502fe59966957ec4b79dd64e16f03ed96913c7a4eb68d6",
+      "source": "https://huggingface.co/Carve/LaMa-ONNX",
+      "notice": "仅在用户主动安装 NVIDIA GPU 组件时下载；基础 CPU 包不依赖它。"
+    }
+  ]
+}
