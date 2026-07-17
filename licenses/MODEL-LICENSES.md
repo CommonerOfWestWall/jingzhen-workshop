@@ -7,7 +7,7 @@
 - 官方模型页：https://huggingface.co/opencv/inpainting_lama
 - 官方模型文件：https://huggingface.co/opencv/inpainting_lama/blob/main/inpainting_lama_2025jan.onnx
 - SHA-256：`7df918ac3921d3daf0aae1d219776cf0dc4e4935f035af81841b40adcf74fdf2`
-- 许可证全文：`OpenCV-LaMa-Apache-2.0.txt`
+- 许可证全文：源码仓库根目录 `LICENSE`；免安装包内为 `OpenCV-LaMa-Apache-2.0.txt`
 
 ## SAM 2 / SAM 2.1
 
