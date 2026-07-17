@@ -8,6 +8,7 @@
   [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
   [![Windows](https://img.shields.io/badge/platform-Windows-0078D4.svg)](#运行要求)
   [![Offline](https://img.shields.io/badge/processing-offline-2ea44f.svg)](#隐私与使用范围)
+  [![Release](https://img.shields.io/github/v/release/CommonerOfWestWall/jingzhen-workshop?include_prereleases&label=release)](https://github.com/CommonerOfWestWall/jingzhen-workshop/releases)
 
   [获取软件](#获取软件) · [三分钟上手](#三分钟上手) · [完整使用说明](使用说明.md) · [验证记录](docs/validation-matrix.md)
 </div>
@@ -31,11 +32,12 @@
 
 ### 普通用户
 
-1. 从项目的 [Releases 页面](https://github.com/CommonerOfWestWall/jingzhen-workshop/releases) 获取 `净帧工坊-免安装版.zip`。
+1. 从 [Releases 页面](https://github.com/CommonerOfWestWall/jingzhen-workshop/releases) 下载最新预览版的 `净帧工坊-免安装版.zip` 和同名 `.sha256` 文件。
 2. **完整解压** ZIP，不要只把 EXE 单独拖出来。
-3. 双击 `净帧工坊.exe`。无需安装，也不需要管理员权限。
+3. 可选：按发布页说明核对 ZIP 的 SHA-256，确认下载完整。
+4. 双击 `净帧工坊.exe`。无需安装，也不需要管理员权限。
 
-目前仓库尚未发布公开二进制 Release；在首个 Release 上线前，请使用源码构建，或使用维护者提供且带有 `SHA256SUMS.txt` 的完整免安装包。不要从不明第三方链接下载。
+公开版本会标记为 **Pre-release（预览版）**。ZIP 内还包含 `SHA256SUMS.txt`，用于检查主程序、引擎、模型和 FFmpeg 等内部文件。只从本仓库 Releases 下载，不要使用不明第三方链接。
 
 ### 运行要求
 
